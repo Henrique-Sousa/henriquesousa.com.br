@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: Laksaman;
+	src: url("./fonts/Laksaman.ttf");
+}
+
+@font-face{
+	font-family: DejaVuSerif;
+	src: url("./fonts/DejaVuSerif.ttf");
+}
+
+header{
+	background-color: #272727;
+}
+
+h1{
+	padding: 30px 112px;
+	font-size: 40px;
+	color: #ededed;
+	font-family: DejaVuSerif, serif;
+	font-weight: 500;
+}
+
+#text{
+	font-family: Laksaman, sans;
+	font-size: 35px;
+	color: #6f6f6f;
+	padding: 150px 260px 120px 260px;
+	text-align: center;
+
+}
+
+.icon{
+	height: 50px;
+	fill: #008ab1;
+}
+
+
+footer{
+	text-align: center;
+}
+
+footer .icon{
+	margin-left:30px;
+	margin-right: 30px;
+}
+
+footer a{
+	text-decoration: none;
+}

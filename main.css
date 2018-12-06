@@ -72,3 +72,6 @@ h2{
 	font-size: 25px;
 	line-height: 60px;
 }
+footer a{
+    text-decoration: none;
+}

@@ -53,6 +53,10 @@ a{
 	color: #ff4c00;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 header a{
 	color: inherit;
 	text-decoration: none;
@@ -65,7 +69,8 @@ h2{
 
 #portfolio-items{
 	margin-top: 50px;
-	list-style: none;
+	//list-style: none;
+	text-align: left;
 }
 
 #portfolio-items li{
